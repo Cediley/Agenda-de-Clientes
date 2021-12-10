@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText android:id="@+id/activity_Formulario_Cliente_nome"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:hint="Nome: "
+        android:inputType="textCapWords"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/activity_Formulario_Cliente_telefone"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:hint="Telefone: "
+        android:inputType="phone"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/activity_Formulario_Cliente_email"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:hint="E-mail: "
+        android:inputType="textEmailAddress"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/activity_Formulario_Cliente_pedido"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:hint="Descrição: "
+        android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/activity_Formulario_Cliente_botao_salvar"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:text="salvar"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
